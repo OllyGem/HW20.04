@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Good Player</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        #player{
+            background-color: #444;
+            width: 600px;
+            height: 500px;
+            margin: auto;     
+        }
+        #controls{
+            border-bottom: 3px solid olivedrab;
+            padding: 20px;
+            text-align: center;
+        }
+        #play{
+            width: 50px;
+            height: 50px;
+            border: 2px solid olivedrab;
+            border-radius: 25px;
+            background-color: #555;
+            color: orange;
+            font-size: 20px;            
+        }
+        #prev{
+            border-radius: 10px 0 0 10px;
+            height: 30px;
+            border: 2px solid olivedrab;
+            background-color: #555;
+            color:orange;
+        }
+        #next{
+            border-radius: 0 10px 10px 0;
+            height: 30px;
+            border: 2px solid olivedrab;
+            background-color: #555;
+            color: orange;
+        }
+        #cinema{
+            background-color: #444;
+            width: 600px;
+            height: 410px;
+            text-align: center;   
+        }
+    </style>
+</head>
+
+<body>
+    <div id="player">
+        <div id="controls" class="btnplay">
+            <button id="prev"> <strong>&lt;&lt;</strong>  </button>
+            <button id="play">&#9658;</button>
+            <button id="next"> <strong>&gt;&gt;</strong></button>
+        </div>
+
+        <div id="cinema"> 
+            <img src="https://img.beritasatu.com/cache/jakartaglobe/960x620-4/2018/01/Cinemaxx-Regular-1.jpg" alt="cinema"
+            height="410" width="600">
+        </div>
+    </div>
+    
+</body>
+</html>
